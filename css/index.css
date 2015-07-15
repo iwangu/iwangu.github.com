@@ -308,7 +308,7 @@ body{
 			position: absolute;
 			left:0px; top:0px;
 			width:100%;
-			height:100%;
+			height:300px;
 			background-clip: border-box;
 			background-origin: padding-box;
 			background-repeat: no-repeat;
