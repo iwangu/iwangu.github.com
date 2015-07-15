@@ -91,8 +91,8 @@ body{
 		}
 		@media(max-width: 640px){
 			#me{
-				
-			}	
+
+			}
 		}
 #body-row{
 	margin-top:300px; /* matches height of #intro-row */
@@ -304,6 +304,21 @@ body{
 			background-image:url('/images/coffee.jpg');
 			z-index: 0;
 		}
+		#zurich-background{
+			position: absolute;
+			left:0px; top:0px;
+			width:100%;
+			height:100%;
+			background-clip: border-box;
+			background-origin: padding-box;
+			background-repeat: no-repeat;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			background-image:url('/images/zurich.jpg');
+			z-index: 0;
+		}
 		#coffee p{
 			margin-bottom: 15px;
 			line-height: 130%;
@@ -428,8 +443,8 @@ body{
 				border-bottom:2px solid rgba(255,255,255, 1.0);
 			}
 			#send-email-wrapper{
-				padding-top: 15px;			
-			}	
+				padding-top: 15px;
+			}
 				#send-email{
 					display: inline-block;
 					border-radius: 3px;
@@ -460,7 +475,7 @@ body{
 			@media(max-width: 640px){
 				#send-email-wrapper{
 					padding-top: 10px;
-					padding-bottom: 10px;	
+					padding-bottom: 10px;
 				}
 				#send-email{
 					font-size: 20px;
