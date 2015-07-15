@@ -20,6 +20,9 @@ body{
 	text-align: center;
 	z-index: 0;
 }
+
+.clearer { clear: both; }
+
 @media(max-width: 640px){
 	#intro-row{
 		position: relative;
