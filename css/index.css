@@ -304,11 +304,12 @@ body{
 			background-image:url('/images/coffee.jpg');
 			z-index: 0;
 		}
-		#zurich-background{
-			position: absolute;
-			left:0px; top:0px;
-			width:100%;
+		.three{
 			height:300px;
+		}
+		#zurich-background{
+			width:100%;
+			height:100%;
 			background-clip: border-box;
 			background-origin: padding-box;
 			background-repeat: no-repeat;
