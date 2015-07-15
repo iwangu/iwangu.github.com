@@ -317,7 +317,7 @@ body{
 			-moz-background-size: cover;
 			background-size: cover;
 			background-position: center center;
-			background-image:url('/images/zurich.jpg');
+			background-image:url('/images/zurich_small.jpg');
 			z-index: 0;
 		}
 		#coffee p{
