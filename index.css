@@ -87,12 +87,12 @@ body{
 			-moz-background-size: cover;
 			background-size: cover;
 			background-position: center center;
-			background-image:url('/images/me.jpg');
+			background-image:url('/images/me.png');
 		}
 		@media(max-width: 640px){
 			#me{
-				
-			}	
+
+			}
 		}
 #body-row{
 	margin-top:300px; /* matches height of #intro-row */
@@ -428,8 +428,8 @@ body{
 				border-bottom:2px solid rgba(255,255,255, 1.0);
 			}
 			#send-email-wrapper{
-				padding-top: 15px;			
-			}	
+				padding-top: 15px;
+			}
 				#send-email{
 					display: inline-block;
 					border-radius: 3px;
@@ -460,7 +460,7 @@ body{
 			@media(max-width: 640px){
 				#send-email-wrapper{
 					padding-top: 10px;
-					padding-bottom: 10px;	
+					padding-bottom: 10px;
 				}
 				#send-email{
 					font-size: 20px;
